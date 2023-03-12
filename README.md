@@ -3,6 +3,7 @@ A Reverse Shell, also known as a remote shell or "connect-back shell" is process
 
 # How To Install
 - git clone https://github.com/CuriousAvenger/Py-ReverseShell
+- pip install -r requirements.txt
 - python3 RS-Server.py or RS-Client.py
 - pyinstaller --onefile --noconsole -i icon filename -n output.exe
 
