@@ -16,3 +16,9 @@ A Reverse Shell, also known as a remote shell or "connect-back shell" is process
 - `pyinstaller --onefile --noconsole -i <icon> <filename> -n <output.exe>`
 - Upload & run these payloads using `upload` & `start` features in shell
 - All required information will be stored in appdata as `system.dll`
+
+# Error Handling
+- Make sure the two users are not from the same device, else shell will crash.
+- If you run into a forever loop use task manager to kill the python task
+- Make sure no other program uses the port `4444` or change it if it does
+- Payloads by default are not initalized on purpose. Highly recommend to mess with them before using.
